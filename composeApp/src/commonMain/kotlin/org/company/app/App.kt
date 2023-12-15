@@ -47,7 +47,7 @@ import org.jetbrains.compose.resources.Font
 internal fun App() = AppTheme {
     val jbMono = FontFamily(Font(Res.fonts.jetbrainsmono_regular))
     Column(
-        modifier = Modifier.background(Color.White)
+        modifier = Modifier.background(Color.White).fillMaxSize()
     ) {
         Text(
             fontFamily = jbMono,
